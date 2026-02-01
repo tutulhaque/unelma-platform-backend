@@ -6,11 +6,11 @@ module.exports = ({ env }) => {
   const connections = {
     mysql: {
       connection: {
-        host: env("DATABASE_HOST", "127.0.0.1"),
+        host: env("DATABASE_HOST", "srv2041.hstgr.io"),
         port: env.int("DATABASE_PORT", 3306),
-        database: env("DATABASE_NAME", "unelma"),
-        user: env("DATABASE_USERNAME", "root"),
-        password: env("DATABASE_PASSWORD", "your_new_root_password"),
+        database: env("DATABASE_NAME", "u147335272_unelma"),
+        user: env("DATABASE_USERNAME", "u147335272_unelma"),
+        password: env("DATABASE_PASSWORD", "SaifTutul02778323*#"),
         ssl: env.bool("DATABASE_SSL", false) && {
           key: env("DATABASE_SSL_KEY", undefined),
           cert: env("DATABASE_SSL_CERT", undefined),
