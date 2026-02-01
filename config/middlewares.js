@@ -27,7 +27,12 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      origin: ["http://localhost:5173"],
+      origin: [
+        "http://localhost:5173", // local dev
+        "http://localhost:3000", // optional local dev port
+        "https://*.vercel.app", // Vercel preview deployments
+        "https://unelma-platform-frontend.vercel.app", // production Vercel domain
+      ],
     },
   },
   "strapi::poweredBy",
