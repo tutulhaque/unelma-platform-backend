@@ -1,0 +1,13 @@
+{
+  "kind": "component",
+  "collectionName": "unelma_sliders",
+  "info": {
+    "displayName": "UnelmaSlider",
+    "icon": "slideshow"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

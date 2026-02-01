@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quote_submissions",
+  "info": {
+    "singularName": "quote-submission",
+    "pluralName": "quote-submissions",
+    "displayName": "quoteSubmission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "service_type": {
+      "type": "enumeration",
+      "enum": [
+        "Web Development",
+        "UI/UX Design",
+        "Cloud Services",
+        "Security & Compliance"
+      ]
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SlidingText": {
+      "type": "component",
+      "component": "home.sliding-text",
+      "repeatable": true
+    },
+    "services_title": {
+      "type": "string"
+    },
+    "service_color_title": {
+      "type": "string"
+    },
+    "services_description": {
+      "type": "text"
+    },
+    "services_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "HomeServices": {
+      "type": "component",
+      "component": "home.home-services",
+      "repeatable": true
+    },
+    "portfolio_title": {
+      "type": "string"
+    },
+    "portfolio_color_title": {
+      "type": "string"
+    },
+    "portfolio_description": {
+      "type": "text"
+    },
+    "HomePortfolio": {
+      "type": "component",
+      "component": "home.portfolio",
+      "repeatable": true
+    },
+    "testimonialTitle": {
+      "type": "string"
+    },
+    "testimonial_color_title": {
+      "type": "string"
+    },
+    "HomeTestimonial": {
+      "type": "component",
+      "component": "home.testimonial-card",
+      "repeatable": true
+    },
+    "workprocessTitle": {
+      "type": "string"
+    },
+    "workprocess_color_title": {
+      "type": "string"
+    },
+    "HomeWorkProcess": {
+      "type": "component",
+      "component": "home.work-process",
+      "repeatable": true
+    },
+    "blogTitle": {
+      "type": "string"
+    },
+    "blog_color_title": {
+      "type": "string"
+    },
+    "homeBlog": {
+      "type": "component",
+      "component": "home.blog",
+      "repeatable": true
+    },
+    "contact_title": {
+      "type": "string"
+    },
+    "contacts_color_title": {
+      "type": "string"
+    },
+    "contact_description": {
+      "type": "text"
+    },
+    "unelmaSlider": {
+      "type": "component",
+      "component": "home.unelma-slider",
+      "repeatable": true
+    },
+    "sliders": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::slider.slider"
+    }
+  }
+}

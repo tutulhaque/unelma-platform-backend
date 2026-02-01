@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_work_processes",
+  "info": {
+    "displayName": "workProcess"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

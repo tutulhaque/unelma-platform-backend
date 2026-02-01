@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_resource_links",
+  "info": {
+    "displayName": "resourceLink"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    },
+    "hoverColor": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

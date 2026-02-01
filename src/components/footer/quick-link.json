@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_quick_links",
+  "info": {
+    "displayName": "quickLink"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    },
+    "hoverColor": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

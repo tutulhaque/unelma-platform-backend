@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_home_services",
+  "info": {
+    "displayName": "HomeServices"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "color_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "lucide_icon": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

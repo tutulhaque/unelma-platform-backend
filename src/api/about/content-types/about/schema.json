@@ -1,0 +1,91 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": "Write about yourself and the content you create"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_title": {
+      "type": "string"
+    },
+    "who_we_are_title": {
+      "type": "string"
+    },
+    "who_we_are_color_title": {
+      "type": "string"
+    },
+    "who_we_are_description": {
+      "type": "text"
+    },
+    "about_bg_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "who_we_are_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "our_mission_title": {
+      "type": "string"
+    },
+    "our_mission_color_title": {
+      "type": "string"
+    },
+    "our_mission_description": {
+      "type": "text"
+    },
+    "our_mission_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "our_vission_title": {
+      "type": "string"
+    },
+    "our_vission_color_title": {
+      "type": "string"
+    },
+    "our_vission_description": {
+      "type": "text"
+    },
+    "our_vission_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "team_title": {
+      "type": "string"
+    },
+    "Team": {
+      "type": "component",
+      "component": "about.team",
+      "repeatable": true
+    },
+    "testimonial_color_title": {
+      "type": "string"
+    },
+    "team_color_title": {
+      "type": "string"
+    }
+  }
+}
